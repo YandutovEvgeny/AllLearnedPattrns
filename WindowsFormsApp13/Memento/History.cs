@@ -8,5 +8,11 @@ namespace WindowsFormsApp13.Memento
 {
     class History
     {
+        public Stack<SomeClassMemento> ClassHistory { get; set; }
+
+        public History()
+        {
+            ClassHistory = new Stack<SomeClassMemento>();
+        }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp13.State
 {
-    class IState
+    interface IState
     {
+        void NextState(StateMainClass stateMainClass);
+        void ShowInfo(StateMainClass stateMainClass);
     }
 }

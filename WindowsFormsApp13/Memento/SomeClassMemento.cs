@@ -8,14 +8,13 @@ namespace WindowsFormsApp13.Memento
 {
     class SomeClassMemento
     {
-        public string Value1 { get; set; }
+        public string Value1{ get; set; }
         public string Value2 { get; set; }
-        public int Value3 { get; set; }
-        public SomeClassMemento(string v1, string v2, int v3)
+
+        public SomeClassMemento(string v1, string v2)
         {
             Value1 = v1;
             Value2 = v2;
-            Value3 = v3;
         }
     }
 }
